@@ -1,0 +1,76 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cricket players",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BioOfPlayer",
+                    "slots": [
+                        {
+                            "name": "cricketplayer",
+                            "type": "NamesOfPlayers"
+                        }
+                    ],
+                    "samples": [
+                        "what do you know about {cricketplayer}",
+                        "give me some facts on {cricketplayer}",
+                        "who is {cricketplayer}",
+                        "{cricketplayer}",
+                        "tell me about {cricketplayer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "NamesOfPlayers",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "James Anderson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sachin Tendulkar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shane Warne"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Virat Kohli"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
